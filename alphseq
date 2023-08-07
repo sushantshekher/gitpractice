@@ -1,0 +1,7 @@
+def generate_alphabet_sequence():
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    return alphabet
+
+# Call the function and print the alphabet sequence
+sequence = generate_alphabet_sequence()
+print(sequence)
