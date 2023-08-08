@@ -1,0 +1,17 @@
+def generate_sequence(start, end, step):
+    sequence = []
+    current = start
+    while current <= end:
+        sequence.append(current)
+        current += step
+    return sequence
+
+# Get user input for range and step
+start = int(input("Enter the starting number: "))
+end = int(input("Enter the ending number: "))
+step = int(input("Enter the step: "))
+
+# Generate and print the sequence
+sequence = generate_sequence(start, end, step)
+print("Generated Sequence:", sequence)
+
