@@ -1,4 +1,4 @@
-public class SumCalculator {
+public class hello.java {
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 7;
